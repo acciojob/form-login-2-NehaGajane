@@ -6,7 +6,8 @@ let email = document.getElementById('email');
 
 
 document.getElementById('btn').addEventListener('click', function() {
-	alert(`First Name: ${fname.value} /n
-Last Name: ${lname.value} /n	Phone Number: ${phone.value} /n
+	alert(`First Name: ${fname.value}
+Last Name: ${lname.value}
+Phone Number: ${phone.value}
 Email ID: ${email.value}`);
 });
